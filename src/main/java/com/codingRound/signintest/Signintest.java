@@ -4,26 +4,28 @@ package com.codingRound.signintest;
 */
 
 import com.codingRound.commonhelper.CommonHelper;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
 
 public class Signintest {
 
-    @BeforeSuite
+    //Identifying OS and initalizing chrome browser.
+    @BeforeClass
     public void initDrvierandPath() throws IOException {
         CommonHelper commonHelper = new CommonHelper();
         commonHelper.webdriver();
     }
+    //Test to click on sign button.
     @Test
-    public void initDrvierandPath1() throws IOException {
+    public void shouldThrowAnErrorIfSignInDetailsAreMissing() throws IOException {
         signintestHelper signintestHelper = new signintestHelper();
         signintestHelper.shouldThrowAnErrorIfSignInDetailsAreMissing();
 
     }
-    @AfterSuite
+    //Class to quit the browser.
+    @AfterClass
     public void quitDriver(){
         CommonHelper commonHelper = new CommonHelper();
         commonHelper.closewebdriver();

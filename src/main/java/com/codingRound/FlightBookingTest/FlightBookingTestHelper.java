@@ -1,6 +1,10 @@
 package com.codingRound.FlightBookingTest;
+/*
+@author - Sijo Jose
+*/
 
 import com.codingRound.commonhelper.CommonHelper;
+import com.codingRound.commonhelper.PropertyHandler;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -9,9 +13,13 @@ import java.util.List;
 
 public class FlightBookingTestHelper extends CommonHelper {
 
+    //Creating instance of property file.
+    PropertyHandler prop= PropertyHandler.getInstance();
+
+    //To test the result appear for one way journey.
     public void testThatResultsAppearForAOneWayJourney() {
 
-        driver.get("https://www.cleartrip.com/");
+        driver.get(prop.getValue("HOST"));
         waitFor(2000);
 
         driver.findElement(By.id("OneWay")).click();
@@ -31,6 +39,7 @@ public class FlightBookingTestHelper extends CommonHelper {
         //wait for the auto complete options to appear for the destination
 
         waitFor(2000);
+
         //select the first item from the destination auto complete list
         List<WebElement> destinationOptions = driver.findElement(By.id("ui-id-2")).findElements(By.tagName("li"));
         destinationOptions.get(0).click();
@@ -44,8 +53,6 @@ public class FlightBookingTestHelper extends CommonHelper {
         //verify that result appears for the provided journey search
         Assert.assertTrue(isElementPresent(By.className("searchSummary")));
 
-        //close the browser
-        driver.quit();
 
     }
 

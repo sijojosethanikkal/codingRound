@@ -9,12 +9,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.BeforeSuite;
+
 
 public class CommonHelper {
 
     public static WebDriver driver;
 
+    //To initialize the webdriver based on platform.
     public WebDriver webdriver() {
         if (PlatformUtil.isMac()) {
             System.setProperty("webdriver.chrome.driver", "chromedriver");
@@ -30,9 +31,11 @@ public class CommonHelper {
         }
         driver = new ChromeDriver();
         driver.manage().window().maximize();
+
         return driver;
     }
 
+    //Common method for delay.
     public void waitFor(int durationInMilliSeconds) {
         try {
             Thread.sleep(durationInMilliSeconds);
@@ -41,9 +44,12 @@ public class CommonHelper {
         }
     }
 
+    //To close the browser.
     public void closewebdriver(){
         driver.quit();
     }
+
+
 
     public boolean isElementPresent(By by) {
         try {

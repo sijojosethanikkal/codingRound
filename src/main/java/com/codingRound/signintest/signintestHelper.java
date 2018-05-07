@@ -1,22 +1,23 @@
 package com.codingRound.signintest;
-
-import com.codingRound.commonhelper.CommonHelper;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
-
 /*
 @author - Sijo Jose
 */
+
+import com.codingRound.commonhelper.CommonHelper;
+import com.codingRound.commonhelper.PropertyHandler;
+import org.openqa.selenium.By;
+import org.testng.Assert;
+
 public class signintestHelper  extends CommonHelper {
 
+    //Creating instance of property file.
+    PropertyHandler prop= PropertyHandler.getInstance();
 
+    //To do a sign in test.
     public void shouldThrowAnErrorIfSignInDetailsAreMissing() {
 
-        driver.get("https://www.cleartrip.com/");
+
+        driver.get(prop.getValue("HOST"));
         waitFor(2000);
 
         driver.findElement(By.id("userAccountLink")).click();
@@ -24,7 +25,7 @@ public class signintestHelper  extends CommonHelper {
         driver.findElement(By.id("SignIn")).click();
         waitFor(2000);
 
-
+        //Switching the frame.
         driver.switchTo().frame(4);
 
         driver.findElement(By.id("signInButton")).click();
@@ -32,6 +33,7 @@ public class signintestHelper  extends CommonHelper {
         String errors1 = driver.findElement(By.id("errors1")).getText();
         System.out.print(errors1);
 
+        //Asserting the error message.
         Assert.assertTrue(errors1.contains("There were errors in your submission"));
 
 
