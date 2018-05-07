@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="103450" started-at="2018-05-07T17:44:51Z" finished-at="2018-05-07T17:46:35Z">
+    <groups>
+    </groups>
+    <test name="codingRound" duration-ms="103450" started-at="2018-05-07T17:44:51Z" finished-at="2018-05-07T17:46:35Z">
+      <class name="com.codingRound.signintest.Signintest">
+        <test-method status="PASS" signature="initDrvierandPath()[pri:0, instance:com.codingRound.signintest.Signintest@1888ff2c]" name="initDrvierandPath" is-config="true" duration-ms="3331" started-at="2018-05-07T23:16:13Z" finished-at="2018-05-07T23:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDrvierandPath -->
+        <test-method status="PASS" signature="shouldThrowAnErrorIfSignInDetailsAreMissing()[pri:0, instance:com.codingRound.signintest.Signintest@1888ff2c]" name="shouldThrowAnErrorIfSignInDetailsAreMissing" duration-ms="17389" started-at="2018-05-07T23:16:16Z" finished-at="2018-05-07T23:16:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.codingRound.signintest.Signintest@1888ff2c]" name="quitDriver" is-config="true" duration-ms="959" started-at="2018-05-07T23:16:34Z" finished-at="2018-05-07T23:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.codingRound.signintest.Signintest -->
+      <class name="com.codingRound.HotelBooking.HotelBooking">
+        <test-method status="PASS" signature="initDrvierandPath()[pri:0, instance:com.codingRound.HotelBooking.HotelBooking@6e3c1e69]" name="initDrvierandPath" is-config="true" duration-ms="3517" started-at="2018-05-07T23:15:30Z" finished-at="2018-05-07T23:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDrvierandPath -->
+        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:com.codingRound.HotelBooking.HotelBooking@6e3c1e69]" name="shouldBeAbleToSearchForHotels" duration-ms="38506" started-at="2018-05-07T23:15:34Z" finished-at="2018-05-07T23:16:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToSearchForHotels -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.codingRound.HotelBooking.HotelBooking@6e3c1e69]" name="quitDriver" is-config="true" duration-ms="989" started-at="2018-05-07T23:16:12Z" finished-at="2018-05-07T23:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.codingRound.HotelBooking.HotelBooking -->
+      <class name="com.codingRound.FlightBookingTest.FlightBookingTest">
+        <test-method status="PASS" signature="initDrvierandPath()[pri:0, instance:com.codingRound.FlightBookingTest.FlightBookingTest@2aaf7cc2]" name="initDrvierandPath" is-config="true" duration-ms="4888" started-at="2018-05-07T23:14:51Z" finished-at="2018-05-07T23:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDrvierandPath -->
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:com.codingRound.FlightBookingTest.FlightBookingTest@2aaf7cc2]" name="testThatResultsAppearForAOneWayJourney" duration-ms="32694" started-at="2018-05-07T23:14:56Z" finished-at="2018-05-07T23:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThatResultsAppearForAOneWayJourney -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.codingRound.FlightBookingTest.FlightBookingTest@2aaf7cc2]" name="quitDriver" is-config="true" duration-ms="1114" started-at="2018-05-07T23:15:29Z" finished-at="2018-05-07T23:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.codingRound.FlightBookingTest.FlightBookingTest -->
+    </test> <!-- codingRound -->
+  </suite> <!-- Default Suite -->
+</testng-results>

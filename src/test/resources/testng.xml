@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="clear Trip Testing" verbose="1" >
+    <test name="Sign in" >
+        <classes>
+            <class name="com.codingRound.signintest.Signintest">
+                <methods>
+                    <include name="shouldThrowAnErrorIfSignInDetailsAreMissing" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Flight Booking" >
+        <classes>
+            <class name="com.codingRound.FlightBookingTest.FlightBookingTest">
+                <methods>
+                    <include name="testThatResultsAppearForAOneWayJourney" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Hotel Booking" >
+        <classes>
+            <class name="com.codingRound.HotelBooking.HotelBooking">
+                <methods>
+                    <include name="shouldBeAbleToSearchForHotels" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
