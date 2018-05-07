@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_Suite">
-              <span class="suite-name border-passed">Default Suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-clear_Trip_Testing">
+              <span class="suite-name border-failed">clear Trip Testing</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_Suite">
-                    <span>C:\Users\sijo.jose\.IdeaIC2018.1\system\temp-testng-customsuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-clear_Trip_Testing">
+                    <span>C:\Users\sijo.jose\IdeaProjects\codingRound\src\test\resources\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_Suite">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" class="navigator-link " panel-name="testlist-clear_Trip_Testing">
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_Suite">
+                  <a href="#" class="navigator-link " panel-name="group-clear_Trip_Testing">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_Suite">
+                  <a href="#" class="navigator-link " panel-name="times-clear_Trip_Testing">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_Suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-clear_Trip_Testing">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_Suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-clear_Trip_Testing">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_Suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-clear_Trip_Testing">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,31 +91,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-clear_Trip_Testing" class="hide-methods failed suite-clear_Trip_Testing"> (hide)</a> <!-- hide-methods failed suite-clear_Trip_Testing -->
+                      <a href="#" panel-name="suite-clear_Trip_Testing" class="show-methods failed suite-clear_Trip_Testing"> (show)</a> <!-- show-methods failed suite-clear_Trip_Testing -->
+                    </span>
+                    <div class="method-list-content failed suite-clear_Trip_Testing">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-clear_Trip_Testing" title="com.codingRound.HotelBooking.HotelBooking" hash-for-method="shouldBeAbleToSearchForHotels">shouldBeAbleToSearchForHotels</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-clear_Trip_Testing" title="com.codingRound.signintest.Signintest" hash-for-method="shouldThrowAnErrorIfSignInDetailsAreMissing">shouldThrowAnErrorIfSignInDetailsAreMissing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-clear_Trip_Testing -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_Suite" class="hide-methods passed suite-Default_Suite"> (hide)</a> <!-- hide-methods passed suite-Default_Suite -->
-                      <a href="#" panel-name="suite-Default_Suite" class="show-methods passed suite-Default_Suite"> (show)</a> <!-- show-methods passed suite-Default_Suite -->
+                      <a href="#" panel-name="suite-clear_Trip_Testing" class="hide-methods passed suite-clear_Trip_Testing"> (hide)</a> <!-- hide-methods passed suite-clear_Trip_Testing -->
+                      <a href="#" panel-name="suite-clear_Trip_Testing" class="show-methods passed suite-clear_Trip_Testing"> (show)</a> <!-- show-methods passed suite-clear_Trip_Testing -->
                     </span>
-                    <div class="method-list-content passed suite-Default_Suite">
+                    <div class="method-list-content passed suite-clear_Trip_Testing">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.codingRound.HotelBooking.HotelBooking" hash-for-method="shouldBeAbleToSearchForHotels">shouldBeAbleToSearchForHotels</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-clear_Trip_Testing" title="com.codingRound.FlightBookingTest.FlightBookingTest" hash-for-method="testThatResultsAppearForAOneWayJourney">testThatResultsAppearForAOneWayJourney</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.codingRound.signintest.Signintest" hash-for-method="shouldThrowAnErrorIfSignInDetailsAreMissing">shouldThrowAnErrorIfSignInDetailsAreMissing</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_Suite" title="com.codingRound.FlightBookingTest.FlightBookingTest" hash-for-method="testThatResultsAppearForAOneWayJourney">testThatResultsAppearForAOneWayJourney</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Default_Suite -->
+                    </div> <!-- method-list-content passed suite-clear_Trip_Testing -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -126,8 +135,92 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_Suite" class="panel Default_Suite">
-          <div class="suite-Default_Suite-class-passed">
+        <div panel-name="suite-clear_Trip_Testing" class="panel clear_Trip_Testing">
+          <div class="suite-clear_Trip_Testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.codingRound.signintest.Signintest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldThrowAnErrorIfSignInDetailsAreMissing">
+                  </a> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
+                  <span class="method-name">shouldThrowAnErrorIfSignInDetailsAreMissing</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;signInButton&quot;}
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;BIZREN228&apos;, ip: &apos;192.168.43.218&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\SIJO~1.JOS\AppData\Local\Temp\scoped_dir14076_6355}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: df27ff5b81c410e7152711d2c0443d98
+*** Element info: {Using=id, value=signInButton}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:402)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.codingRound.signintest.signintestHelper.shouldThrowAnErrorIfSignInDetailsAreMissing(signintestHelper.java:31)
+	at com.codingRound.signintest.Signintest.shouldThrowAnErrorIfSignInDetailsAreMissing(Signintest.java:24)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-clear_Trip_Testing-class-failed -->
+          <div class="suite-clear_Trip_Testing-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.codingRound.HotelBooking.HotelBooking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shouldBeAbleToSearchForHotels">
+                  </a> <!-- shouldBeAbleToSearchForHotels -->
+                  <span class="method-name">shouldBeAbleToSearchForHotels</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Show all hotels in Bangalore&quot;}
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;BIZREN228&apos;, ip: &apos;192.168.43.218&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\SIJO~1.JOS\AppData\Local\Temp\scoped_dir9440_4385}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=66.0.3359.139, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b5eb876a95fb7216042a7de3abb93c9e
+*** Element info: {Using=link text, value=Show all hotels in Bangalore}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:410)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at com.codingRound.HotelBooking.HotelBookingHelper.shouldBeAbleToSearchForHotels(HotelBookingHelper.java:54)
+	at com.codingRound.HotelBooking.HotelBooking.shouldBeAbleToSearchForHotels(HotelBooking.java:25)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-clear_Trip_Testing-class-failed -->
+          <div class="suite-clear_Trip_Testing-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.codingRound.FlightBookingTest.FlightBookingTest</span>
@@ -141,86 +234,82 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_Suite-class-passed -->
-          <div class="suite-Default_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.codingRound.HotelBooking.HotelBooking</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="shouldBeAbleToSearchForHotels">
-                  </a> <!-- shouldBeAbleToSearchForHotels -->
-                  <span class="method-name">shouldBeAbleToSearchForHotels</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_Suite-class-passed -->
-          <div class="suite-Default_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.codingRound.signintest.Signintest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="shouldThrowAnErrorIfSignInDetailsAreMissing">
-                  </a> <!-- shouldThrowAnErrorIfSignInDetailsAreMissing -->
-                  <span class="method-name">shouldThrowAnErrorIfSignInDetailsAreMissing</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_Suite-class-passed -->
-        </div> <!-- panel Default_Suite -->
-        <div panel-name="test-xml-Default_Suite" class="panel">
+          </div> <!-- suite-clear_Trip_Testing-class-passed -->
+        </div> <!-- panel clear_Trip_Testing -->
+        <div panel-name="test-xml-clear_Trip_Testing" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sijo.jose\.IdeaIC2018.1\system\temp-testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\sijo.jose\IdeaProjects\codingRound\src\test\resources\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default Suite&quot;&gt;
-  &lt;test name=&quot;codingRound&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;clear Trip Testing&quot;&gt;
+  &lt;test name=&quot;Sign in&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.codingRound.FlightBookingTest.FlightBookingTest&quot;/&gt;
-      &lt;class name=&quot;com.codingRound.HotelBooking.HotelBooking&quot;/&gt;
-      &lt;class name=&quot;com.codingRound.signintest.Signintest&quot;/&gt;
+      &lt;class name=&quot;com.codingRound.signintest.Signintest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;shouldThrowAnErrorIfSignInDetailsAreMissing&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.codingRound.signintest.Signintest --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- codingRound --&gt;
-&lt;/suite&gt; &lt;!-- Default Suite --&gt;
+  &lt;/test&gt; &lt;!-- Sign in --&gt;
+  &lt;test name=&quot;Flight Booking&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.codingRound.FlightBookingTest.FlightBookingTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testThatResultsAppearForAOneWayJourney&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.codingRound.FlightBookingTest.FlightBookingTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Flight Booking --&gt;
+  &lt;test name=&quot;Hotel Booking&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.codingRound.HotelBooking.HotelBooking&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;shouldBeAbleToSearchForHotels&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.codingRound.HotelBooking.HotelBooking --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Hotel Booking --&gt;
+&lt;/suite&gt; &lt;!-- clear Trip Testing --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_Suite" class="panel">
+        <div panel-name="testlist-clear_Trip_Testing" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default Suite</span>
+            <span class="header-content">Tests for clear Trip Testing</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">codingRound (3 classes)</span>
+                <span class="test-name">Sign in (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Flight Booking (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Hotel Booking (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_Suite" class="panel">
+        <div panel-name="group-clear_Trip_Testing" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default Suite</span>
+            <span class="header-content">Groups for clear Trip Testing</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_Suite" class="panel">
+        <div panel-name="times-clear_Trip_Testing" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default Suite</span>
+            <span class="header-content">Times for clear Trip Testing</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_Suite');
-function tableData_Default_Suite() {
+suiteTableInitFunctions.push('tableData_clear_Trip_Testing');
+function tableData_clear_Trip_Testing() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
@@ -230,87 +319,91 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'shouldBeAbleToSearchForHotels')
 data.setCell(0, 2, 'com.codingRound.HotelBooking.HotelBooking')
-data.setCell(0, 3, 38506);
+data.setCell(0, 3, 85090);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testThatResultsAppearForAOneWayJourney')
 data.setCell(1, 2, 'com.codingRound.FlightBookingTest.FlightBookingTest')
-data.setCell(1, 3, 32694);
+data.setCell(1, 3, 42237);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'shouldThrowAnErrorIfSignInDetailsAreMissing')
 data.setCell(2, 2, 'com.codingRound.signintest.Signintest')
-data.setCell(2, 3, 17389);
-window.suiteTableData['Default_Suite']= { tableData: data, tableDiv: 'times-div-Default_Suite'}
+data.setCell(2, 3, 25968);
+window.suiteTableData['clear_Trip_Testing']= { tableData: data, tableDiv: 'times-div-clear_Trip_Testing'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
-              <div id="times-div-Default_Suite">
-              </div> <!-- times-div-Default_Suite -->
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-clear_Trip_Testing">
+              </div> <!-- times-div-clear_Trip_Testing -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_Suite" class="panel">
+        <div panel-name="reporter-clear_Trip_Testing" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default Suite</span>
+            <span class="header-content">Reporter output for clear Trip Testing</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_Suite" class="panel">
+        <div panel-name="ignored-methods-clear_Trip_Testing" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_Suite" class="panel">
+        <div panel-name="chronological-clear_Trip_Testing" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.codingRound.FlightBookingTest.FlightBookingTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.codingRound.signintest.Signintest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">initDrvierandPath</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">testThatResultsAppearForAOneWayJourney</span>
-                <span class="method-start">4924 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shouldThrowAnErrorIfSignInDetailsAreMissing</span>
+                <span class="method-start">5235 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">37619 ms</span>
+                <span class="method-start">31217 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.codingRound.FlightBookingTest.FlightBookingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initDrvierandPath</span>
+                <span class="method-start">32414 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testThatResultsAppearForAOneWayJourney</span>
+                <span class="method-start">35997 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quitDriver</span>
+                <span class="method-start">78235 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.codingRound.HotelBooking.HotelBooking</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">initDrvierandPath</span>
-                <span class="method-start">38735 ms</span>
+                <span class="method-start">79453 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">shouldBeAbleToSearchForHotels</span>
-                <span class="method-start">42253 ms</span>
+                <span class="method-start">82834 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">80759 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.codingRound.signintest.Signintest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">initDrvierandPath</span>
-                <span class="method-start">81749 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">shouldThrowAnErrorIfSignInDetailsAreMissing</span>
-                <span class="method-start">85081 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">quitDriver</span>
-                <span class="method-start">102470 ms</span>
+                <span class="method-start">167928 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
