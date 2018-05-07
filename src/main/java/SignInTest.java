@@ -23,6 +23,8 @@ public class SignInTest {
         driver.findElement(By.id("signInButton")).click();
 
         String errors1 = driver.findElement(By.id("errors1")).getText();
+        System.out.print(errors1);
+
         Assert.assertTrue(errors1.contains("There were errors in your submission"));
         driver.quit();
     }

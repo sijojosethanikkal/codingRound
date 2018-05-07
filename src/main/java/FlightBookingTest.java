@@ -4,7 +4,6 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -15,7 +14,7 @@ public class FlightBookingTest {
     WebDriver driver = new ChromeDriver();
 
 
-    @Test
+
     public void testThatResultsAppearForAOneWayJourney() {
 
         setDriverPath();

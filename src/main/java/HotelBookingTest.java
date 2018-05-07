@@ -22,7 +22,7 @@ public class HotelBookingTest {
     @FindBy(id = "travellersOnhome")
     private WebElement travellerSelection;
 
-    @Test
+
     public void shouldBeAbleToSearchForHotels() {
         setDriverPath();
 

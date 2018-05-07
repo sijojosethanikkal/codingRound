@@ -24,5 +24,11 @@
       <version>6.11</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-chrome-driver</artifactId>
+      <version>3.11.0</version>
+    </dependency>
+
   </dependencies>
 </project>
